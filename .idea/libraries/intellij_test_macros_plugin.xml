@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="intellij-test-macros-plugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/intellij-test-macros-plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
