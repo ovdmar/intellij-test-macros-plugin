@@ -1,0 +1,22 @@
+<idea-plugin>
+  <id>com.ovdmar.intellij.testmacrosplugin</id>
+  <name>Test Macros</name>
+  <version>1.0</version>
+  <vendor email="ovidiu.marus@gmail.com" url="https://github.com/ovdmar/intellij-test-macros-plugin">Github</vendor>
+
+  <description><![CDATA[
+      This plugins adds IntelliJ macros to be used for running tests with external tools
+    ]]></description>
+
+  <idea-version since-build="173.0"/>
+  <depends>com.intellij.modules.lang</depends>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+    <macro implementation="com.ovdmar.intellij.testmacrosplugin.TestSuiteMacro"/>
+  </extensions>
+
+  <actions>
+  </actions>
+
+</idea-plugin>
