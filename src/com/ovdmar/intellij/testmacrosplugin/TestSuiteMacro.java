@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 public class TestSuiteMacro extends CustomEditorMacro {
 
-    private Pattern goSuitePattern = Pattern.compile(".*type (.*) struct \\{\n.*suite.Suite.*");
+    private Pattern goSuitePattern = Pattern.compile(".*func (.*)\\(t \\*testing\\.T\\) \\{.*");
     private Pattern pySuitePattern = Pattern.compile(".*class (.*)\\(.*\\):");
 
     public TestSuiteMacro() {
