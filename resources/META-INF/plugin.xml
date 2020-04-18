@@ -14,6 +14,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <macro implementation="com.ovdmar.intellij.testmacrosplugin.TestSuiteMacro"/>
+    <macro implementation="com.ovdmar.intellij.testmacrosplugin.DevcliTestMacro"/>
   </extensions>
 
   <actions>
