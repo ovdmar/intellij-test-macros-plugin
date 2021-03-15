@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  */
 public class DevcliTestMacro extends CustomEditorMacro {
 
-    private final Pattern goTestPattern = Pattern.compile("func \\(suite \\*[A-Za-z]+\\) (Test.*)\\(\\) \\{");
+    private final Pattern goTestPattern = Pattern.compile("func \\(suite .*\\) (Test.*)\\(\\) \\{");
     private final Pattern pyTestPattern = Pattern.compile("def (test.*)\\(self.*\\):");
     private final Pattern goSuitePattern = Pattern.compile(".*func (.*)\\(t \\*testing\\.T\\) \\{.*");
     private final Pattern pySuitePattern = Pattern.compile(".*class (.*)\\(.*\\):");
